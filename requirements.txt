@@ -1,0 +1,2 @@
+boto3>=1.26.0
+# No external dependencies required - using only Python standard library
