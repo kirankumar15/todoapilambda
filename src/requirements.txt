@@ -1,2 +1,6 @@
 boto3>=1.26.0
-# No external dependencies required - using only Python standard library
+# Python 3.8 specific - uses functools.cached_property, typing.Literal, typing.TypedDict
+# math.prod() and enhanced statistics module
+# Assignment expressions (walrus operator :=)
+# Positional-only parameters (/)
+# f-string debugging with = operator
