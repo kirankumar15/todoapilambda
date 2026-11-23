@@ -1,6 +1,7 @@
 boto3>=1.26.0
-# Python 3.8 specific - uses functools.cached_property, typing.Literal, typing.TypedDict
-# math.prod() and enhanced statistics module
-# Assignment expressions (walrus operator :=)
-# Positional-only parameters (/)
+# Runs on the python3.12 Lambda runtime. The code uses features available
+# since Python 3.8: functools.cached_property, typing.Literal, typing.TypedDict,
+# math.prod() and enhanced statistics module,
+# assignment expressions (walrus operator :=),
+# positional-only parameters (/),
 # f-string debugging with = operator
